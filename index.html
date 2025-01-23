@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaolin Vibes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Shaolin Daily Discipline</h1>
+      <p class="subtitle">"Master Yourself, Master Your World"</p>
+    </header>
+
+    <section class="checklist">
+      <h2>Daily Hero Checklist</h2>
+      <ul id="checklist">
+        <li>Body: Morning Workout</li>
+        <li>Mind: Learn One New Thing</li>
+        <li>Soul: Journal and Reflect</li>
+        <li>Work: Focus on Career Goals</li>
+      </ul>
+    </section>
+
+    <section class="roadmap">
+      <h2>Roadmap</h2>
+      <p>You are currently on <span id="step">Step 1</span>.</p>
+      <button onclick="nextStep()">Next Step</button>
+    </section>
+
+    <section class="todo">
+      <h2>Your To-Do List</h2>
+      <input type="text" id="todoInput" placeholder="Add a new task" />
+      <button onclick="addTodo()">Add</button>
+      <ul id="todoList"></ul>
+    </section>
+
+    <footer>
+      <button onclick="accessChat()">Access This Chat</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
